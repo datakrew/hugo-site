@@ -1,0 +1,89 @@
+baseURL = "https://datakrew.github.io/hugo-site"
+publishDir = "docs"
+languageCode = "en-us"
+title = "DataKrew"
+theme = "timer-hugo"
+
+# We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
+
+# Site Menus
+[menu]
+    # Navbar Menus
+    [[menu.nav]]
+        name    = "About"
+        url     = "/about"
+        weight  = 2
+    [[menu.nav]]
+        name    = "Service"
+        url     = "/service"
+        weight  = 3
+    [[menu.nav]]
+        name    = "Gallery"
+        url     = "/gallery"
+        weight  = 4
+    [[menu.nav]]
+        name    = "Blog"
+        url     = "/blog"
+        weight  = 5
+    [[menu.nav]]
+        name    = "Contact"
+        url     = "/contact"
+        weight  = 6
+
+# Site Params
+[params]
+    home = "Home"
+    logo = "images/logo.png"
+    dateFormat = "6 January 2006"
+    # Meta data
+    description = "Airspace Hugo theme"
+    author = "Themefisher"
+    # Google Analitycs
+    googleAnalitycsID = "Your ID"
+
+    # Banner Section
+    [params.banner]
+        enable  = true
+        bgImage = "images/slider.jpg"
+        heading = "At DataKrew, we enable Data"
+        description = "using IoT, cryptography, blockchain and AI."
+        btn     = true
+        btnText = "Learn More"
+        btnURL  = "https://docs.google.com/presentation/d/1CExoQSftqyLmSiExfZv_UwYfn9dUEQMg8qSwm2pPxJ0/edit?usp=sharing"
+        [[params.banner.flipText]]
+            title   = "Acquisition"
+        [[params.banner.flipText]]
+            title   = "Security"
+        [[params.banner.flipText]]
+            title   = "Provenance"
+        [[params.banner.flipText]]
+            title   = "Analytics"
+
+    # Homepage About Section
+    [params.about]
+        enable  = true
+        title   = "ABOUT US"
+        content = "DataKrew Pte. Ltd. is a spin-off company from Nanyang Technological University (NTU) Singapore. The vision of the company is 'to empower businesses transform data into intelligence'. Our core capabilities are (i) data acquisition in real-time using IoT sensors, (ii) data transmission ensuring security and privacy using cryptography, (iii) data provenance and proof-of-existence using blockchain, and (iv) data analytics and predictive process optimisation using AI tools. <br> <br> Some of our relevant fields of expertise include secure hardware design, cybersecurity protocols, applied cryptography, design automation, distributed databases/systems and machine learning algorithms, among others. We have a balanced team, inclusive of PhDs and industry experts, with 35+ years of combined experience. Our competitive edge lies in our IP pipeline portfolio. We have generated promising market traction in terms of projects, partnerships and investment."
+        image   = "images/about/about.jpg"
+
+    # Call to Action
+    [params.cta]
+        enable  = true
+        title   = "SO WHAT YOU THINK ?"
+        content = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis,<br>possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium."
+        btnText = "Contact with me"
+        btnURL  = "/contact"
+
+    # Portfolio Section On Homepage
+    [params.portfolio]
+        enable  = true
+        title   = "Latest Works"
+        subtitle= "Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet est. Aenean posuere tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus."
+
+    # Feature Product Section
+    [params.featureProduct]
+        enable  = true
+        title   = "SOME OF OUR FEATURES WORKS"
+        subtitle= "Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet est. Aenean posuere <br> tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus."
+
+    
