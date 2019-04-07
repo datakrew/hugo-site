@@ -46,7 +46,8 @@ theme = "timer-hugo-loc"
         enable  = true
         bgImage = "images/slider.jpg"
         heading = "At DataKrew, we enable Data"
-        description = "using IoT, cryptography, blockchain and AI."
+        # description = "using IoT, cryptography, blockchain and AI."
+        description = "Your Data. Our Assurance."
         btn     = true
         btnText = "Learn More"
         btnURL  = "https://docs.google.com/presentation/d/1CExoQSftqyLmSiExfZv_UwYfn9dUEQMg8qSwm2pPxJ0/edit?usp=sharing"
