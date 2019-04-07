@@ -2,7 +2,7 @@ baseURL = "https://datakrew.com/hugo-site"
 publishDir = "docs"
 languageCode = "en-us"
 title = "DataKrew"
-theme = "timer-hugo"
+theme = "timer-hugo-loc"
 
 # We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
 
